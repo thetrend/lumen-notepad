@@ -20,7 +20,8 @@ See the demo here: [Heroku](https://calm-depths-05469.herokuapp.com/)
 5. Then run `$ php artisan jwt:secret` to populate your JWT Secret Key which is needed for authentication
 6. Run `$ php artisan migrate` to create your pre-defined tables (located in `database/migrations`)
 7. Run `$ php artisan db:seed` to seed the database with the given user credentials (the password is already hashed)
-8. Run `$ npx mix watch` -- this will compile your npm dependencies
+8. Run `$ npm install` &mdash; this will compile your NPM dependencies
+8. Run `$ npx mix` &mdash; this will prepare your React files for production
 9. In another terminal, run `$ php -S localhost:80 -t public`
 10. Open up localhost in your favorite browser
 11. username: **test@test.com** / password: **$sh4rpspr1nG$**
