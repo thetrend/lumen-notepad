@@ -3,7 +3,7 @@
 This is a simple note-taking app built with [Laravel Lumen](https://lumen.laravel.com) and [React](https://reactjs.org). [Tailwind CSS](https://tailwindcss.com) makes it pretty.
 
 ## Demo Link
-See the demo here: [Heroku]()
+See the demo here: [Heroku](https://calm-depths-05469.herokuapp.com/)
 
 ## How to run the app
 ### Local Testing Requirements
