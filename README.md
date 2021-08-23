@@ -21,10 +21,10 @@ See the demo here: [Heroku](https://calm-depths-05469.herokuapp.com/)
 6. Run `$ php artisan migrate` to create your pre-defined tables (located in `database/migrations`)
 7. Run `$ php artisan db:seed` to seed the database with the given user credentials (the password is already hashed)
 8. Run `$ npm install` &mdash; this will compile your NPM dependencies
-8. Run `$ npx mix` &mdash; this will prepare your React files for production
-9. In another terminal, run `$ php -S localhost:80 -t public`
-10. Open up localhost in your favorite browser
-11. username: **test@test.com** / password: **$sh4rpspr1nG$**
+9. Run `$ npx mix` &mdash; this will prepare your React files for production
+10. In another terminal, run `$ php -S localhost:80 -t public`
+11. Open up localhost in your favorite browser
+12. username: **test@test.com** / password: **$sh4rpspr1nG$**
 
 Play around, try fake login credentials to view the authentication error.
 
