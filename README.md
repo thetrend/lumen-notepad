@@ -16,7 +16,7 @@ See the demo here: [Heroku](https://calm-depths-05469.herokuapp.com/)
 1. Clone this repo and `cd` to the newly downloaded directory
 2. Create a new `database.sqlite` file inside `database/`
 3. Copy or rename `.env.example` to `.env`
-4. Run `$ php composer install` to install your Composer (PHP) dependencies
+4. Run `$ composer install` to install your Composer (PHP) dependencies
 5. Then run `$ php artisan jwt:secret` to populate your JWT Secret Key which is needed for authentication
 6. Run `$ php artisan migrate` to create your pre-defined tables (located in `database/migrations`)
 7. Run `$ php artisan db:seed` to seed the database with the given user credentials (the password is already hashed)
