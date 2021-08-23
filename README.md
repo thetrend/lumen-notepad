@@ -12,6 +12,7 @@ See the demo here: [Heroku](https://calm-depths-05469.herokuapp.com/)
 - SQLite Extension enabled in **php.ini**
 - NPM to compile the frontend files
 
+### Finally, the instruction manual!
 1. Clone this repo and `cd` to the newly downloaded directory
 2. Create a new `database.sqlite` file inside `database/`
 3. Copy or rename `.env.example` to `.env`
