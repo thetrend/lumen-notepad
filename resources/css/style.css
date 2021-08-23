@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-xl;
+}
+
+body {
+  font-family: sans-serif;
+  @apply bg-gray-900;
+  @apply text-white;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply flex-col;
+  @apply px-10;
+  @apply lg:px-40;
+  @apply min-h-screen;
+  @apply w-full;
+}
+
+#root {
+  @apply w-full;
+}
+
+/* Alert Styles */
+.alert-error {
+  @apply mb-5;
+  @apply py-1;
+  @apply px-2;
+  @apply mx-auto;
+  @apply bg-red-900;
+  @apply border-red-600;
+  @apply border;
+  @apply rounded;
+  @apply text-center;
+}
+
+.alert-success {
+  @apply mb-5;
+  @apply py-1;
+  @apply px-2;
+  @apply mx-auto;
+  @apply bg-green-900;
+  @apply border-green-600;
+  @apply border;
+  @apply rounded;
+  @apply text-center;
+}
+
+/* Form styles */
+form {
+  @apply text-center;
+  @apply flex;
+  @apply flex-col;
+  @apply m-auto;
+}
+
+form#login {
+  @apply max-w-sm;
+}
+
+form > div.form.row {
+  @apply flex;
+  @apply flex-row;
+  @apply mb-5;
+}
+
+label.form.label {
+  @apply text-left;
+  @apply w-2/5;
+}
+
+.form.input {
+  @apply w-full;
+  @apply bg-gray-100;
+  @apply appearance-none;
+  @apply border-2;
+  @apply border-gray-100;
+  @apply rounded;
+  @apply py-2;
+  @apply px-4;
+  @apply text-gray-700;
+  @apply leading-tight;
+  @apply focus:outline-none;
+  @apply focus:bg-white;
+  @apply focus:border-blue-500;
+}
+
+form > button.form.submit {
+  @apply mb-5;
+  @apply font-bold;
+  @apply py-2;
+  @apply px-4;
+  @apply mx-auto;
+  @apply bg-blue-500;
+  @apply hover:bg-blue-400;
+  @apply text-white;
+  @apply border-b-4;
+  @apply border-blue-700;
+  @apply hover:border-blue-500 rounded;
+}
+
+/* Note styles */
+div.note {
+  @apply text-sm;
+}
+
+div.note > p {
+  text-indent: 3rem;
+  @apply mb-10;
+}

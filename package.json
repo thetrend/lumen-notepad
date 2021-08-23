@@ -1,0 +1,44 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "A simple notebook app built with Laravel Lumen for the backend and React for the frontend.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grace de la Mora <grace.g.delamora@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.27",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^0.21.1",
+    "html-react-parser": "^1.2.8",
+    "jsonwebtoken": "^8.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "timeago-react": "^3.0.3",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0",
+    "web-vitals": "^2.1.0"
+  }
+}

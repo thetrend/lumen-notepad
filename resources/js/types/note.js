@@ -1,0 +1,7 @@
+export const noteConstants = {
+  GET_NOTES: 'GET_NOTES',
+  NOTE_ERROR: 'NOTE_ERROR',
+  DELETE_NOTE: 'DELETE_NOTE',
+  CREATE_NOTE: 'CREATE_NOTE',
+  UPDATE_NOTE: 'UPDATE_NOTE'
+};
